@@ -1,0 +1,196 @@
+:root {
+    --primaryColor: #009688;
+}
+
+body {
+    background-color: #fafafa;
+    overflow-y: auto;
+}
+
+.contenedorPrincipal {
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contendorNavbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    background-color:  #fafafa;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lineaDerecha {
+    height: 1px;
+    width: 120px;
+    margin-left: 170px;
+    background: linear-gradient(to left, var(--primaryColor), white);
+    position: absolute;
+}
+
+.lineaVertical {
+    height: 30px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--primaryColor), white);
+    position: absolute;
+    margin-left: 10px;
+}
+
+.lineaIzquierda {
+    height: 1px;
+    width: 130px;
+    margin-right: 185px;
+    background: linear-gradient(to right, var(--primaryColor), white);
+    position: absolute;
+}
+
+.icono svg {
+    width: 2.2rem;
+    height: 2.2rem;
+    fill: var(--primaryColor);
+    background-color:  #fafafa;
+}
+
+.contenedorIzquierdoFondo {
+    border-radius: 15px;
+    background-color: var(--primaryColor);
+    width: 100%;
+    height: auto;
+}
+
+.contenedorIzquierdo {
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contenedorIMG img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.nombre {
+    text-align: center;
+    margin-top: 15px
+}
+
+.contendorEnlaces {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linkedin img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.github img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.contenedorInf {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contenedorInf input {
+    width: 45%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttonCv {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.buttonCo {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media (min-width: 500px) {
+    .contenedorPrincipal {
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedorIzquierdoFondo {
+        width: 450px;
+    }
+
+    .contendorNavbar {
+        width: 450px;
+        display: flex;
+    }
+
+    .lineaDerecha {
+        width: 140px;
+        margin-left: 190px;
+    }
+
+    .lineaIzquierda {
+        width: 185px;
+        margin-right: 160px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedorPrincipal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+    .contendorNavbar {
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorIzquierdoFondo {
+        width: 350px;
+    }
+
+    .lineaDerecha {
+        width: 130px;
+        margin-left: 160px;
+    }
+
+    .lineaIzquierda {
+        width: 140px;
+        margin-right: 160px;
+    }
+}

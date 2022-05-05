@@ -1,0 +1,21 @@
+.personalData {
+    margin: 15px
+}
+
+.personalData ul {
+    list-style: none;
+}
+
+.personalData li {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+@media (min-width: 1200px) {
+    .linea {
+        width: 90%;
+        margin-left: 30px;
+    }
+}

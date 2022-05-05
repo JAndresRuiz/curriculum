@@ -1,0 +1,36 @@
+.contenedor h1 {
+    margin: 10px 0;
+}
+
+.disenosPgUno {
+    margin: 15px 0;
+    margin-left: 15px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 40%);
+}
+
+.disenos {
+    margin: 15px 0;
+    display: flex;
+}
+
+.disenos svg {
+    width: 5rem;
+    height: 5rem;
+    fill: var(--primaryColor);
+}
+
+.disenos a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.disenos {
+    text-align: center;
+}
+
+.disenos a span {
+    color: var(--primaryColor);
+}

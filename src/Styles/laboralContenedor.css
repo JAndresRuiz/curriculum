@@ -1,0 +1,31 @@
+.expLaboralContenedor h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.exp h2,
+.exp p {
+    margin: 8px 0;
+}
+
+.estudios h2,
+.estudios p {
+    margin: 8px 0;
+}
+
+.etudioDos {
+    padding-bottom: 6px;
+    margin-bottom: 12px
+}
+
+@media (min-width: 1200px) {
+    .contenLabYEst {
+        display: flex;
+        height: 410px;
+        overflow-x: scroll;
+    }
+
+    .estudios h2 {
+        margin: 5px 0;
+    }
+}
