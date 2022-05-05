@@ -8,9 +8,9 @@ const ContactoContenedor = () => {
       <div className="lineaOrizontal"></div>
       <div className='personalData'>
         <ul>
-          <li><span>Link a linkeding: </span><a href='www.linkedin.com/in/jandresrr'>www.linkedin.com/in/jandresrr</a></li>
+          <li><span>linkeding: </span><a href='www.linkedin.com/in/jandresrr'>www.linkedin.com/in/jandresrr</a></li>
           <div className="linea"></div>
-          <li><span>Link a Github: </span><a href='https://github.com/JAndresRuiz'>https://github.com/JAndresRuiz</a></li>
+          <li><span>Github: </span><a href='https://github.com/JAndresRuiz'>https://github.com/JAndresRuiz</a></li>
         </ul>
       </div>
     </div>
