@@ -8,13 +8,9 @@ const ContactoContenedor = () => {
       <div className="lineaOrizontal"></div>
       <div className='personalData'>
         <ul>
-          <li><span>Dirección: </span>Medellín (Ant), Colombia</li>
+          <li><span>Link a linkeding: </span><a href='www.linkedin.com/in/jandresrr'>www.linkedin.com/in/jandresrr</a></li>
           <div className="linea"></div>
-          <li><span>Correo: </span>andres.ruiz17@hotmail.com</li>
-          <div className="linea"></div>
-          <li><span>Celular: </span>3002061118</li>
-          <div className="linea"></div>
-          <li><span>Estado: </span>Disponible para trabajar</li>
+          <li><span>Link a Github: </span><a href='https://github.com/JAndresRuiz'>https://github.com/JAndresRuiz</a></li>
         </ul>
       </div>
     </div>

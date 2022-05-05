@@ -90,13 +90,13 @@ const App = () => {
                 <img src={git} alt="git" />
               </a>
             </div>
-            <div className="contenedorInf">
+            {/*<div className="contenedorInf">
               <div className="lineaDerecha"></div>
               <input className="buttonCv" type="button" value="Descargar CV" />
               <div className="lineaVertical"></div>
               <div className="lineaIzquierda"></div>
               <input className="buttonCo" type="button" value="Contactame" />
-            </div>
+              </div>*/}
           </div>
         </div>
         <div className="contenedorDerecho">{renderPaginas()}</div>
