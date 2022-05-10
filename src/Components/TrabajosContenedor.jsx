@@ -45,7 +45,7 @@ const TrabajosContenedor = () => {
           <div className="disenos">
             <a
               className="cotizadorCripto"
-              href="https://peaceful-sunshine-781cd8.netlify.app"
+              href="https://ubiquitous-khapse-fc980b.netlify.app"
               target="blank"
             >
               <Criptomoneda />
