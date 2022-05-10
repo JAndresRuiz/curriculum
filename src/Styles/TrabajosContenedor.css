@@ -6,7 +6,8 @@
     margin: 15px 0;
     margin-left: 15px;
     display: grid;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-items: center;
     grid-template-columns: repeat(2, 40%);
 }
 

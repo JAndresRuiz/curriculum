@@ -3,6 +3,7 @@ import "../Styles/TrabajosContenedor.css";
 import { ReactComponent as Calculadora } from "../IMG/calculadora.svg";
 import { ReactComponent as Clima } from "../IMG/nube-sol.svg";
 import { ReactComponent as Consultorio } from "../IMG/base-de-datos.svg";
+import { ReactComponent as Criptomoneda } from "../IMG/criptomoneda.svg";
 
 const TrabajosContenedor = () => {
   return (
@@ -39,6 +40,16 @@ const TrabajosContenedor = () => {
             >
               <Consultorio />
               <p>Consultorio Vet. <span>Click aquí</span></p>
+            </a>
+          </div>
+          <div className="disenos">
+            <a
+              className="cotizadorCripto"
+              href="https://peaceful-sunshine-781cd8.netlify.app"
+              target="blank"
+            >
+              <Criptomoneda />
+              <p>Cotozador Criptomoneda <span>Click aquí</span></p>
             </a>
           </div>
         </div>
