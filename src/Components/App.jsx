@@ -2,6 +2,7 @@ import "../Styles/App.css";
 import { useState } from "react";
 import { InfContenedor } from "./InfContenedor";
 import { LaboralContenedor } from "./LaboralContenedor";
+import { EstudiosContenedor } from "./EstudiosContenedor";
 import { TrabajosContenedor } from "./TrabajosContenedor";
 import { ContactoContenedor } from "./ContactoContenedor";
 
@@ -12,6 +13,7 @@ import { ReactComponent as Icon } from "../IMG/icono.svg";
 import { ReactComponent as ExpLaboral } from "../IMG/sobremi.svg";
 import { ReactComponent as Trabajos } from "../IMG/trabajos.svg";
 import { ReactComponent as Contacto } from "../IMG/contacto.svg";
+import { ReactComponent as Estudios } from "../IMG/libro-alt.svg";
 
 const App = () => {
   const [boton, setBoton] = useState(1);
@@ -27,6 +29,8 @@ const App = () => {
       case 2:
         return <LaboralContenedor />;
       case 3:
+        return <EstudiosContenedor />;
+      case 4:
         return <TrabajosContenedor />;
       default:
         return <ContactoContenedor />;
@@ -52,6 +56,12 @@ const App = () => {
             </button>
             <button type="buton">
               <button className="icono" onClick={() => cambiarVista(3)}>
+                <Estudios />
+              </button>
+              Estudios
+            </button>
+            <button type="buton">
+              <button className="icono" onClick={() => cambiarVista(4)}>
                 <Trabajos />
               </button>
               Apps

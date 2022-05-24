@@ -2,6 +2,10 @@
     margin: 10px 0;
 }
 
+.trabajos {
+    overflow-y: scroll; 
+}
+
 .disenosPgUno {
     margin: 15px 0;
     margin-left: 15px;

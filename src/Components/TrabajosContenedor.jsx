@@ -4,6 +4,7 @@ import { ReactComponent as Calculadora } from "../IMG/calculadora.svg";
 import { ReactComponent as Clima } from "../IMG/nube-sol.svg";
 import { ReactComponent as Consultorio } from "../IMG/base-de-datos.svg";
 import { ReactComponent as Criptomoneda } from "../IMG/criptomoneda.svg";
+import { ReactComponent as Tasks } from "../IMG/comprobacion-de-lista.svg";
 
 const TrabajosContenedor = () => {
   return (
@@ -12,6 +13,7 @@ const TrabajosContenedor = () => {
       <div className="lineaOrizontal"></div>
       <div className="trabajos">
         <div className="disenosPgUno">
+          {/*Diseño 1*/}
           <div className="disenos">
             <a
               className="calculadora"
@@ -22,6 +24,7 @@ const TrabajosContenedor = () => {
               <p>Calculadora <span>Click aquí</span></p>
             </a>
           </div>
+          {/*Diseño 2*/}
           <div className="disenos">
             <a
               className="clima"
@@ -32,6 +35,7 @@ const TrabajosContenedor = () => {
               <p>Clima <span>Click aquí</span></p>
             </a>
           </div>
+          {/*Diseño 3*/}
           <div className="disenos">
             <a
               className="consultorio"
@@ -42,6 +46,7 @@ const TrabajosContenedor = () => {
               <p>Consultorio Vet. <span>Click aquí</span></p>
             </a>
           </div>
+          {/*Diseño 4*/}
           <div className="disenos">
             <a
               className="cotizadorCripto"
@@ -49,7 +54,29 @@ const TrabajosContenedor = () => {
               target="blank"
             >
               <Criptomoneda />
-              <p>Cotozador Criptomoneda <span>Click aquí</span></p>
+              <p>Cotizador Criptomoneda <span>Click aquí</span></p>
+            </a>
+          </div>
+          {/*Diseño 5*/}
+          <div className="disenos">
+            <a
+              className="planificadorGastos"
+              href="https://stalwart-gelato-c50414.netlify.app"
+              target="blank"
+            >
+              <Criptomoneda />
+              <p>Planificador de Gastos <span>Click aquí</span></p>
+            </a>
+          </div>
+          {/*Diseño 6*/}
+          <div className="disenos">
+            <a
+              className="todo"
+              href="https://amazing-marzipan-05bcdf.netlify.app"
+              target="blank"
+            >
+              <Tasks />
+              <p>Gestiona tus tareas diarias <span>Click aquí</span></p>
             </a>
           </div>
         </div>

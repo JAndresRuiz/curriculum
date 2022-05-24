@@ -55,16 +55,16 @@ const InfContenedor = ({ boton }) => {
             <div className="habilidades">
               <img src={desarrollo} alt="desarrollo" />
               <p>
-                Sitio web moderno y listo para dispositivos móviles que lo
-                ayudará a alcanzar el máximo potencial de su empresa.
+                Sitio web moderno y listo para dispositivos móviles desarrollados con las mejores practicas.
               </p>
             </div>
             <div className="lineaOrizontal screenOut"></div>
             <div className="gustos">
               <img src={control} alt="control" />
               <p>
-                Me encantan los videojuegos, pasar tiempo con mi familia y
-                amigos.
+                Me encantan los videojuegos, pasar tiempo con mi familia,
+                amigos, trotar con mi perro y visitar lugares donde pueda
+                probar excelentes comidas.
               </p>
             </div>
           </div>

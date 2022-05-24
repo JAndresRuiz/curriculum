@@ -4,7 +4,7 @@ import "../Styles/laboralContenedor.css";
 const LaboralContenedor = ({ boton }) => {
   return (
     <div className="contenedor">
-      <h1>Experiencia laboral y estudios</h1>
+      <h1>Experiencia laboral</h1>
       <div className="lineaOrizontal"></div>
       <div className="contenLabYEst">
         <div className="expLaboralContenedor">
@@ -43,32 +43,6 @@ const LaboralContenedor = ({ boton }) => {
           </div>
         </div>
         <div className="lineaOrizontal screenOut"></div>
-        <div className="estudios">
-          <h2>Estudios</h2>
-          <div className="lineaOrizontal"></div>
-          <div className="etudioUno">
-            <p>2014 - 2015</p>
-            <h2>Técnico en sistemas</h2>
-            <p>Sena</p>
-            <p>
-              Al culiminar con mis estudios esta capacitado para dar
-              mantenimientos a computadores de escritorio, instalar aplicaciones
-              y manejo de cabeado y redes.
-            </p>
-          </div>
-          <div className="lineaOrizontal"></div>
-          <div className="etudioDos">
-            <p>2021 - Actual</p>
-            <h2>Desarrollador FrontEnd</h2>
-            <p>Platzi</p>
-            <p>
-              Actualmente estoy estudiando desarrollo web en Platzi, donde he
-              adquiridos varios conocimientos de programación y un gran cariño
-              por el desarrollo web y las tecnologías. Este estudio aun esta en
-              curso.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
